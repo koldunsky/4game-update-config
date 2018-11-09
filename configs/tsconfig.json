@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "strictNullChecks": false,
+        "module": "commonjs",
+        "target": "esnext",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "baseUrl": "./",
+        "lib": ["dom", "es2017"],
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "paths": {
+            "~/*" : ["*"]
+        }
+    },
+    "include": [
+        "./src/**/*",
+        "./pages/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "*.md"
+    ]
+}

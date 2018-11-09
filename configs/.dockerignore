@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.git
+dist
+out
+public
+.cache
+README.md
+.watchmanconfig
+.editorconfig
+Jenkinsfile

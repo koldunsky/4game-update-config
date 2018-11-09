@@ -1,0 +1,23 @@
+{
+  "name": "4game_config_setup",
+  "version": "1.0.0",
+  "description": "cli-утилита, хранящая в себе конфигурационные файлы проекта, такие как .editroconfig, .tslint и т.д.",
+  "main": "cli.js",
+  "scripts": {
+    "start": "./cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "configs",
+    "cli",
+    "setup"
+  ],
+  "author": "Ruslan Koldunsky <koldunsky@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "4game_config_set": "./cli.js"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  }
+}
