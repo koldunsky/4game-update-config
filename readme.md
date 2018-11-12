@@ -1,8 +1,8 @@
 # Установка
-`npm install -g 4game_update_config`
+`npm install -g 4game-update-config`
 
 # Использование
-Вызов команды `4game_update_config`  скопирует файлы конфигов в текущую директорию
+Вызов команды `4game-update-config`  скопирует файлы конфигов в текущую директорию
 
 # Содержимое
 * .babelrc

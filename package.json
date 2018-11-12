@@ -1,5 +1,5 @@
 {
-  "name": "4game_update_config",
+  "name": "4game-update-config",
   "version": "1.0.0",
   "description": "Пакет и cli-утилита, для обновления конфигурационных файлов проекта, таких как .editroconfig, .tslint и т.д.",
   "main": "cli.js",
@@ -15,7 +15,7 @@
   "author": "Ruslan Koldunsky <koldunsky@gmail.com>",
   "license": "ISC",
   "bin": {
-    "4game_update_config": "./cli.js"
+    "4game-update-config": "./cli.js"
   },
   "dependencies": {
     "fs-extra": "^7.0.1"
